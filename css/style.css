@@ -40,6 +40,7 @@ body,html{
     flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     
 }
 
@@ -128,7 +129,7 @@ input{
         order: 2;
         width: 100%;
         text-align: center;
-        flex: 2;
+        flex: 1.7;
     }
     .sign-right{
         order: 1;
@@ -145,12 +146,12 @@ input{
 @media (max-width:560px)
 {
     .center img{
-        width: 49%;
+        width: 41%;
         
     }
     .center{
         padding: 0;
-        width: 78%;
+        width: 80%;
         min-height: 65%;
         flex-direction: column; 
     }
@@ -163,7 +164,7 @@ input{
     }
 
     .center img{
-        width: 42%;
+        width: 40%;
         
     }
     .center{
