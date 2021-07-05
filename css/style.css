@@ -45,7 +45,6 @@ body,html{
 
 .sign-right{
     flex: 1;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,18 +110,17 @@ input{
 @media (max-width:780px)
 {
     body,html{
-        font-size: 7.5px;
+        font-size: 7px;
     }
 
     .center{
         width: 58%;
-        min-height: 93%;
+        min-height: 83%;
         flex-direction: column; 
     }
 
     .center img{
         width: 68%;
-       
         margin: 1.2rem auto 0.5rem;
     }
 
@@ -133,7 +131,6 @@ input{
     }
     .sign-right{
         order: 1;
-        
     }
 
     input{
@@ -146,13 +143,13 @@ input{
 @media (max-width:560px)
 {
     .center img{
-        width: 75%;
+        width: 45%;
         
     }
     .center{
         padding: 0;
         width: 78%;
-        min-height: 93%;
+        min-height: 73%;
         flex-direction: column; 
     }
 }
