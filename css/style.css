@@ -114,13 +114,13 @@ input{
     }
 
     .center{
-        width: 58%;
-        min-height: 83%;
+        width: 68%;
+        min-height: 85%;
         flex-direction: column; 
     }
 
     .center img{
-        width: 68%;
+        width: 46%;
         margin: 1.2rem auto 0.5rem;
     }
 
@@ -128,9 +128,11 @@ input{
         order: 2;
         width: 100%;
         text-align: center;
+        flex: 2;
     }
     .sign-right{
         order: 1;
+        flex: 1;
     }
 
     input{
@@ -143,13 +145,32 @@ input{
 @media (max-width:560px)
 {
     .center img{
-        width: 45%;
+        width: 49%;
         
     }
     .center{
         padding: 0;
         width: 78%;
-        min-height: 73%;
+        min-height: 65%;
         flex-direction: column; 
     }
 }
+@media (max-width:370px)
+{
+
+    body,html{
+        font-size: 6.5px;
+    }
+
+    .center img{
+        width: 42%;
+        
+    }
+    .center{
+        padding: 0;
+        width: 85%;
+        min-height: 45%;
+        flex-direction: column; 
+    }
+}
+
