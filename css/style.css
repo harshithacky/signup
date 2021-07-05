@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    background-color: azure;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center{
+    width: 46%;
+    height: 74%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    padding: 3.4rem;  
+}
+
+.center h1{
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    
+}
+
+.sign-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sign-right{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 1.1rem;
+    width: 75%;
+    padding: 0.3rem;
+    color: #757575;
+    border: none;
+    border-bottom: 2.2px solid #dfdfdf;
+    outline: none;
+    font-size: 13px;
+}
+
+.center img{
+    width: 100%;
+}
+
+.center button{
+    padding: 0.7rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 0.4rem;
+    transition: 0.5s all;
+    background-color: #39A2DB;
+}
+.center button:hover{
+    transform: scale(1.1);
+    background-color: #27a5e9;
+}
+
+@media (max-width:1280px)
+{
+    .center{
+        width: 56%;
+        height: 80%; 
+    }
+}
+@media (max-width:980px)
+{
+
+    body,html{
+        font-size: 10px;
+    }
+
+    .center{
+        width: 76%;
+        
+    }
+    .center img{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+@media (max-width:780px)
+{
+    body,html{
+        font-size: 7.5px;
+    }
+
+    .center{
+        width: 58%;
+        min-height: 93%;
+        flex-direction: column; 
+    }
+
+    .center img{
+        width: 68%;
+       
+        margin: 1.2rem auto 0.5rem;
+    }
+
+    .sign-left{
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+    .sign-right{
+        order: 1;
+        
+    }
+
+    input{
+        margin: 0 auto 1.1rem;
+        width: 80%;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:560px)
+{
+    .center img{
+        width: 75%;
+        
+    }
+    .center{
+        padding: 0;
+        width: 78%;
+        min-height: 93%;
+        flex-direction: column; 
+    }
+}
