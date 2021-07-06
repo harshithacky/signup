@@ -158,9 +158,10 @@ input{
 }
 @media (max-width:370px)
 {
-
-    body,html{
-        font-size: 6.5px;
+    input{
+        margin: 0 auto 1.25rem;
+        width: 84%;
+        
     }
 
     .center img{
