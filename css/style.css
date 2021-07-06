@@ -63,6 +63,11 @@ input{
     border-bottom: 2.2px solid #dfdfdf;
     outline: none;
     font-size: 13px;
+    transition: 0.3s all;
+}
+
+input:focus{
+    border-color: #39A2DB;
 }
 
 .center img{
@@ -169,7 +174,7 @@ input{
         
     }
     .center{
-        
+        padding: 2.6rem 0;
         width: 85%;
         min-height: auto;
         flex-direction: column; 
